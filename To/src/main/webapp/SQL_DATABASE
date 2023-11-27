@@ -1,0 +1,5 @@
+CREATE TABLE tasksdata(
+    taskid INT PRIMARY KEY AUTO_INCREMENT,
+    taskname VARCHAR(255) NOT NULL,
+    description VARCHAR(1000)
+);
